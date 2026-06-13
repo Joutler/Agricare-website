@@ -11,7 +11,7 @@
   --muted: #5f6e60;
   --white: #ffffff;
   --shadow: 0 24px 70px rgba(24, 44, 27, 0.18);
-  font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 * {
@@ -50,7 +50,6 @@ p {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
   line-height: 0.95;
 }
 
@@ -230,8 +229,8 @@ h1 {
 
 .hero-card strong {
   display: block;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.45rem;
+  font-weight: 900;
   line-height: 1.05;
 }
 
@@ -260,8 +259,8 @@ h1 {
 
 .stats strong {
   color: var(--maize);
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900;
 }
 
 .stats span {
@@ -566,8 +565,8 @@ li {
 .contact-note strong {
   color: var(--leaf);
   display: block;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
+  font-weight: 900;
   line-height: 1;
 }
 
