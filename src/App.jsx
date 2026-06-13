@@ -1,3 +1,5 @@
+import React from 'react';
+
 const contacts = {
   primaryPhone: '+265 990 660 020',
   secondaryPhone: '+265 880 605 779',
@@ -100,7 +102,6 @@ function App() {
         </div>
         <aside className="hero-card" aria-label="AgriCare quick facts">
           <img src="/assets/logo.jpg" alt="" />
-          <strong>ESEA-supported digital presence</strong>
           <p>
             Building stronger visibility for a local agribusiness serving farmers
             with inputs, advice, and field-based trust.
