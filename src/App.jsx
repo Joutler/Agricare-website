@@ -46,6 +46,11 @@ const gallery = [
     text: 'In-house field production helps AgriCare stay closer to the realities farmers face every season.',
   },
   {
+    src: '/assets/seed-close.jpg',
+    title: 'Seed crop monitoring',
+    text: 'Close field observation helps the team track crop development, flowering, and the quality of the production field.',
+  },
+  {
     src: '/assets/extension-visit.jpg',
     title: 'Extension support',
     text: 'Farmers receive practical field guidance, including crop establishment and input application support.',
@@ -191,6 +196,10 @@ function App() {
         <div className="section-heading narrow">
           <p className="section-label">In the field</p>
           <h2>Proof from the farm, not just promises from the shop.</h2>
+          <p>
+            Seed production, crop monitoring, farmer extension work, and shop
+            availability all work together in the AgriCare model.
+          </p>
         </div>
 
         <div className="gallery-grid">
@@ -208,11 +217,11 @@ function App() {
 
       <section className="team section-pad" id="team">
         <div className="section-heading narrow">
-          <p className="section-label">Founders</p>
+          <p className="section-label">Founders & field team</p>
           <h2>Built by people close to the farmers AgriCare serves.</h2>
           <p>
-            The founding team combines commercial, operational, and field
-            production experience, supported by farmer engagement and retail
+            The team combines commercial, operational, seed production, and
+            field advisory experience, supported by farmer engagement and retail
             staff on the ground.
           </p>
         </div>
@@ -239,6 +248,18 @@ function App() {
                 Leads seed production systems, field coordination, and practical
                 farmer engagement so product advice stays grounded in real crop
                 conditions.
+              </span>
+            </div>
+          </article>
+          <article className="person-card person-card-wide">
+            <img src="/assets/lenson.jpg" alt="Lenson Kamanga" />
+            <div>
+              <p>Extension & Agronomist</p>
+              <h3>Lenson Kamanga</h3>
+              <span>
+                Supports farmer advisory, field visits, crop monitoring, and
+                practical agronomic guidance so farmers receive the right advice
+                before, during, and after input application.
               </span>
             </div>
           </article>

@@ -415,7 +415,7 @@ li {
 .gallery-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .gallery-card {
@@ -490,6 +490,15 @@ li {
 .person-card span {
   color: var(--muted);
   line-height: 1.65;
+}
+
+.person-card-wide {
+  grid-column: 1 / -1;
+}
+
+.person-card-wide img {
+  max-height: 420px;
+  object-position: center 30%;
 }
 
 .cta-band {
